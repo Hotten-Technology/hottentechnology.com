@@ -1,0 +1,27 @@
+{
+	"name": "hottentechnology",
+	"version": "1.0",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-node": "^5.2.13",
+		"@sveltejs/kit": "^2.22.2",
+		"@sveltejs/vite-plugin-svelte": "^5.1.0",
+		"sass": "^1.89.2",
+		"svelte": "^5.35.4",
+		"svelte-check": "^4.2.2",
+		"typescript": "^5.8.3",
+		"vite": "^6.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"bulma": "^1.0.4",
+		"gweb-bulma": "github:gxorge/bulma"
+	}
+}
