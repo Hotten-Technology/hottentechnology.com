@@ -21,8 +21,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"bulma": "^1.0.4",
-		"gweb-bulma": "github:gxorge/bulma"
+		"bulma": "^1.0.4"
 	},
 	"optionalDependencies": {
 		"@rollup/rollup-linux-x64-gnu": "^4.45.1"
